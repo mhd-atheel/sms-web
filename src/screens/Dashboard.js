@@ -69,7 +69,7 @@ const Dashboard = () => {
       <BoxContainer name="Donations" count={256984} color="#FFC16E"/>
       <BoxContainer name="Subjects" count={13} color="#FD9041"/>
       </div>
-      {/* <Bar width="200" height="200" data={data} options={options} /> */}
+      <Bar width="200" height="200" data={data} options={options} />
     </div>
   )
 }
