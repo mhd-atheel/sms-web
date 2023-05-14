@@ -3,7 +3,18 @@ import "../css/Sidebar.css";
 
 const Sidebar = () => {
     const [selectedIndex, setSelectedIndex] = useState(0);
-    const dummyData = ["Dashboard", "Student", "Teacher", "Leaves","Donations"];
+    const navdata =
+        ["Dashboard",
+            "Student",
+            "Teacher",
+            "Staffs",
+            "Subjects",
+            "Leaves",
+            "Time Table",
+    
+            "Events",
+            "Settings",
+        ];
 
     const handleClick = (index) => {
         //console.log(`index is ${index}`);
@@ -12,14 +23,14 @@ const Sidebar = () => {
     };
 
     return (
-        
+
         <div className="container">
             <div className="container2"></div>
             <ul>
-                {dummyData.map((item, index) => (
+                {navdata.map((item, index) => (
                     <li
-                    className={selectedIndex == index ? 'navName':'notNavName'}
-                     key={index} onClick={() => handleClick(index)} >
+                        className={selectedIndex == index ? 'navName' : 'notNavName'}
+                        key={index} onClick={() => handleClick(index)} >
                         {item}
                     </li>
                 ))}

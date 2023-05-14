@@ -1,0 +1,47 @@
+.circle{
+    height: 15px;
+    width: 15px;
+    background-color: #1dc12d;
+    border-radius:50% ;
+    margin-right: 5px;
+    margin-top: 0px;
+}
+.navRow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 5px;
+    align-items: center;
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgb(222, 219, 219);
+}
+
+h6{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 25px;
+}
+.profileImage{
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+
+}
+.navcolumn{
+    
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10px;
+    
+}
+
+.navbarName{
+    font-size: 16px;
+    font-weight: bold;
+    color:#4FA4F4 ;
+}
+.navEmail{
+    font-size: 11px;
+    font-weight:500;
+}

@@ -1,4 +1,12 @@
 .row{
   display: flex;
+  flex-direction:row;
 }
-
+h1{
+  color:#4FA4F4 ;
+  padding-left: 50px;
+  
+}
+.column{
+  width: 100%;
+}
