@@ -14,7 +14,17 @@
     margin-top: 5px;
     align-items: center;
     padding-bottom: 4px;
+    
+}
+.MainNavRow{
+    display: flex;
     border-bottom: 1px solid rgb(222, 219, 219);
+    justify-content:space-between;
+}
+.logo{
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 h6{
